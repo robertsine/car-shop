@@ -24,6 +24,22 @@ export const serverRoutes: ServerRoute[] = [
   //   renderMode: RenderMode.Server,
   // },
 
+  // Not working
+  // {
+  //   path: ':slug/:attribute',
+  //   renderMode: RenderMode.Prerender,
+  //   fallback: PrerenderFallback.Client,
+  //   getPrerenderParams(): Promise<Record<string, string>[]> {
+  //     const offers = [{ slug: 'volvo', attribute: 'black' }];
+  //     return Promise.resolve(
+  //       offers.map(({ slug, attribute }) => ({
+  //         slug,
+  //         attribute,
+  //       }))
+  //     );
+  //   },
+  // },
+
   // Default
   {
     path: '**',
