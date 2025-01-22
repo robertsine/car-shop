@@ -40,7 +40,7 @@ export const serverRoutes: ServerRoute[] = [
   //   },
   // },
 
-  // Not working in local development, in server works as fallback for prerenderer and user
+  // Not working in dev mode. When building, generates fallback code. User also gets fallback code, not SSG.
   // {
   //   path: '**',
   //   renderMode: RenderMode.Prerender,
