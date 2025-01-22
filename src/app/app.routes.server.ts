@@ -40,7 +40,7 @@ export const serverRoutes: ServerRoute[] = [
   //   },
   // },
 
-  // Not working in local development server but working in build.
+  // Not working in local development, in server works as fallback for prerenderer and user
   // {
   //   path: '**',
   //   renderMode: RenderMode.Prerender,
