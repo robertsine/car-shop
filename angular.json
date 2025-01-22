@@ -17,10 +17,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "prerender": {
-              "discoverRoutes": false,
-              "routesFile": "routes.txt"
-            },
             "outputPath": "dist/car-shop",
             "index": "src/index.html",
             "browser": "src/main.ts",
